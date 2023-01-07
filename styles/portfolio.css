@@ -19,8 +19,14 @@ text-align: right;
 
 color: #FFFFFF;
 }
+        
+li::marker {
+    color: rgb(0, 238, 255);
+    content: "✓";
+  }
 
 
+ 
 .first-subtitle{
     position: absolute;
 width: 494px;
@@ -43,7 +49,8 @@ color: #FFFFFF;
 }
 
 .button{
-  margin:  25px 21px 25px 22px;
+    padding: 21px 26px;
+  
     position: absolute;
 width: 109px;
 height: 23px;
@@ -61,3 +68,126 @@ color: #005FAC;
 
 
 }
+
+.person{
+    position: absolute;
+width: 451px;
+height: 898px;
+left: 277px;
+top: 948px;
+
+background: url(ff.png);
+}
+
+.main-title{ 
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    left: 862px;
+    top: 1178px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    /* Dark 01 */
+    color: #151414;}
+
+    .main-sub-title{
+        position: absolute;
+width: 416px;
+height: 104px;
+left: 883px;
+top: 1312px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+/* or 162% */
+
+/* Dark 02 */
+color: #444343;
+
+}
+
+.list{
+    position: absolute;
+    width: 272px;
+    height: 26px;
+    left: 917px;
+    top: 1500px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    /* identical to box height, or 162% */
+    
+    /* Dark 02 */
+    color: #444343;
+    
+}
+
+.section-title{
+    position: absolute;
+width: 179px;
+height: 47px;
+left: 765px;
+top: 1792px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+/* identical to box height */
+text-align: center;
+
+/* Dark 01 */
+color: #151414;
+
+
+}
+
+
+/* my plans style */
+.my-plans{
+    margin-top: 130px;
+    position: absolute;
+    text-align: center;
+width: 1141px;
+height: 299.96px;
+left: 230px;
+top: 1792.3px;
+
+
+
+}
+.skills-container{
+    display: flex;
+    gap: 34px;
+    position: absolute;
+}
+
+
+/* next section */
+.watch{
+    position: absolute;
+width: 1140px;
+height: 300px;
+left: 230px;
+top: 2216.3px;
+
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+border-radius: 8px;
+}
+
+
