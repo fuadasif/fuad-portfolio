@@ -49,22 +49,17 @@ color: #FFFFFF;
 }
 
 .button{
-    padding: 21px 26px;
-  
     position: absolute;
-width: 109px;
-height: 23px;
-left: 1235px;
-top: 596px;
+width: 160px;
+height: 64px;
+left: 1210px;
+top: 576px;
 
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
+
 font-size: 20px;
-line-height: 23px;
-text-align: center;
-
+font-weight: 600;
 color: #005FAC;
+
 
 
 }
@@ -137,7 +132,7 @@ color: #444343;
 
 .section-title{
     position: absolute;
-width: 179px;
+/* width: 179px; */
 height: 47px;
 left: 765px;
 top: 1792px;
@@ -146,7 +141,7 @@ font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
-line-height: 47px;
+
 
 /* identical to box height */
 text-align: center;
@@ -154,19 +149,28 @@ text-align: center;
 /* Dark 01 */
 color: #151414;
 
-
+;
 }
 
 
 /* my plans style */
+
+
+
+
+
 .my-plans{
-    margin-top: 130px;
+    margin: 120px 250px;
     position: absolute;
     text-align: center;
 width: 1141px;
 height: 299.96px;
 left: 230px;
 top: 1792.3px;
+display: flex;
+justify-content: space-between;
+
+
 
 
 
@@ -177,130 +181,164 @@ top: 1792.3px;
     position: absolute;
 }
 
+.skill-description{
+   
 
-/* next section */
-.watch{
-
-    background-image:url('../images/watch.png') ;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-
-    position: absolute;
-width: 1140px;
-height: 300px;
-left: 230px;
-top: 2216.3px;
-
-background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-border-radius: 8px;
-}
-/* this is watch */
-.watch-title{
-    position: absolute;
-width: 459px;
-height: 94px;
-left: 298px;
-top: 2272px;
 
 font-family: 'Work Sans';
 font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-
-color: #FFFFFF;
-
-
-}
-
-.div-watch{
-    position: absolute;
-width: 463px;
-height: 185.3px;
-left: 294px;
-top: 2272px;
-
-
-}
-.call{
-    position: absolute;
-width: 88px;
-height: 23px;
-left: 330px;
-top: 2414.3px;
-
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 23px;
+font-weight: 500;
+font-size: 15px;
+line-height: 29px;
 text-align: center;
 
-color: #F15B22;
+
+color: #737272;
+
 
 
 }
 
-/* footer */
+/* next section watch */
+
+
+.watch{
+    background:linear-gradient(#0000ffed,#ff000060), url(../images/watch.png);
+    
+    /* background-image: linear-gradient(blue, rgb(76, 90, 172)); */
+    
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+    
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%); */
+    
+    border-radius: 8px;
+    position: absolute;
+}
 
 
 
 
+
+.watch-theme{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+}
+
+
+
+
+
+
+
+.watch-title{
+    
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2280.96px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #8d0707;
+    margin-left: 64px;
+    
+    
+    
+}
+
+.watch-btn{
+    
+    /* width: 100px; */
+    height: 23px;
+    left: 330px;
+    top: 2419.96px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #005FAC;
+    margin-left: 64px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+align-items: center;
+}
+
+/* last section */
 
 
 .footer{
     position: absolute;
 width: 1600px;
 height: 577px;
-left: 23px;
-top: 2652px;
+left: 21px;
+top: 2646px;
 
 /* Dark 01 */
-background: #151414;
+background: #151414
+}
+.footer-text{
+  
+width: 523px;
+height: 83.65px;
+left: 192px;
+top: 2826px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+/* or 162% */
+
+color: #FFFFFF;
+
+margin: 230px 130px;
+}
+.footer-p{
+    width: 485px;
+height: 78px;
+left: 252px;
+top: 2864px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.all-side{
+    display: flex;
 }
 
 
-.footer-title{
-    position: absolute;
-    width: 159.6px;
-    height: 56.84px;
-    left: 192px;
-    top: 2752px;
+
+.footer-right{
     
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    
-    color: #F8F8F8;
-    
-    
+    width: 1600px;
+    height: 677px;
+    left: 21px;
+    top: 2646px;
+margin-top: 250px;
+
 }
-.future-sub-title{
-    position: absolute;
-    width: 523px;
-    height: 83.65px;
-    left: 192px;
-    top: 2826px;
-    
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    
-    /* or 162% */
-    
-    color: #FFFFFF;
-    
-    
-/* footer right */
-.sub{
-    position: absolute;
-width: 123px;
+
+.sub-title{
+    width: 123px;
 height: 29px;
-left: 1046px;
-top: 2781.96px;
+left: 1068px;
+top: 2795px;
 
 font-family: 'Work Sans';
 font-style: normal;
@@ -308,41 +346,29 @@ font-weight: 600;
 font-size: 25px;
 line-height: 29px;
 
-color: #ffffff;
+color: #FFFFFF;
 
-  
+
 }
 
 .form-class{
-    position: absolute;
-    width: 325px;
-    height: 64px;
-    left: 1046px;
-    top: 2841.96px;
-    
-    position: absolute;
-    width: 146px;
-    height: 21px;
-    left: 1067px;
-    top: 2862.96px;
-    
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    
-    /* Dark 07 */
-    color: #F3F3F3;
-    
-        
+   
+
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 40px;
+color: #F3F3F3;
+
+
 
 }
 
 
-
 .button-subscribe{
-    position: absolute;
+    border: none;
     width: 98.06px;
     height: 24px;
     left: 1082.02px;
@@ -355,14 +381,14 @@ color: #ffffff;
     line-height: 24px;
     
     color: #FFFFFF;
-    position: absolute;
+    
+    
 width: 170.11px;
 height: 64px;
-left: 1046px;
-top: 2921.96px;
+left: 1050px;
+top: 2922px;
 
 background: #005FAC;
 border-radius: 8px;
-border: none;
-    
-}
+margin-top: 10px;}
+
