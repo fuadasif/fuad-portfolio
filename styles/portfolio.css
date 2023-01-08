@@ -180,6 +180,10 @@ top: 1792.3px;
 
 /* next section */
 .watch{
+
+    background-image:url('../images/watch.png') ;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
     position: absolute;
 width: 1140px;
 height: 300px;
@@ -189,5 +193,176 @@ top: 2216.3px;
 background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
 border-radius: 8px;
 }
+/* this is watch */
+.watch-title{
+    position: absolute;
+width: 459px;
+height: 94px;
+left: 298px;
+top: 2272px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
 
 
+}
+
+.div-watch{
+    position: absolute;
+width: 463px;
+height: 185.3px;
+left: 294px;
+top: 2272px;
+
+
+}
+.call{
+    position: absolute;
+width: 88px;
+height: 23px;
+left: 330px;
+top: 2414.3px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #F15B22;
+
+
+}
+
+/* footer */
+
+
+
+
+
+
+.footer{
+    position: absolute;
+width: 1600px;
+height: 577px;
+left: 23px;
+top: 2652px;
+
+/* Dark 01 */
+background: #151414;
+}
+
+
+.footer-title{
+    position: absolute;
+    width: 159.6px;
+    height: 56.84px;
+    left: 192px;
+    top: 2752px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    
+    color: #F8F8F8;
+    
+    
+}
+.future-sub-title{
+    position: absolute;
+    width: 523px;
+    height: 83.65px;
+    left: 192px;
+    top: 2826px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    /* or 162% */
+    
+    color: #FFFFFF;
+    
+    
+/* footer right */
+.sub{
+    position: absolute;
+width: 123px;
+height: 29px;
+left: 1046px;
+top: 2781.96px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+
+color: #ffffff;
+
+  
+}
+
+.form-class{
+    position: absolute;
+    width: 325px;
+    height: 64px;
+    left: 1046px;
+    top: 2841.96px;
+    
+    position: absolute;
+    width: 146px;
+    height: 21px;
+    left: 1067px;
+    top: 2862.96px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    /* Dark 07 */
+    color: #F3F3F3;
+    
+        
+
+}
+
+
+
+.button-subscribe{
+    position: absolute;
+    width: 98.06px;
+    height: 24px;
+    left: 1082.02px;
+    top: 2941.96px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    position: absolute;
+width: 170.11px;
+height: 64px;
+left: 1046px;
+top: 2921.96px;
+
+background: #005FAC;
+border-radius: 8px;
+border: none;
+    
+}
